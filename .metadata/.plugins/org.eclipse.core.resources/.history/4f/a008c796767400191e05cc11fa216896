@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo;
+
+/**
+ * @author amrit
+ *
+ */
+public class HelloWorldController {
+
+	/**
+	 * 
+	 */
+	public HelloWorldController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

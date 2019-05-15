@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.exceptions;
+
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+/**
+ * @author amrit
+ *
+ */
+public class ApplicationResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
+
+	/**
+	 * 
+	 */
+	public ApplicationResponseEntityExceptionHandler() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

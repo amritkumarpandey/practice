@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo;
+
+/**
+ * @author amrit
+ *
+ */
+public class SwaggerConfiguration {
+
+}

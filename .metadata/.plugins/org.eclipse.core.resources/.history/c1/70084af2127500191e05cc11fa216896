@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo;
+
+import org.springframework.context.*;
+/**
+ * @author amrit
+ *
+ */
+//Configure
+@Configuration
+@EnableSwagger2
+//EnableSwagegr
+public class SwaggerConfiguration {
+	
+	//Bean - Docket
+	//Configure Documentantion type for swagger
+	// For all apis
+
+}

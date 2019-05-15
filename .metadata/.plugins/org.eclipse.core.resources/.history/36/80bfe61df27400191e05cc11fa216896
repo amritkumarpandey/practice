@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.exceptions;
+
+/**
+ * @author amrit
+ *
+ */
+public class ApplicationUserNotFoundException extends Exception {
+
+}

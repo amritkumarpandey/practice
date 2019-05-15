@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.beans;
+
+/**
+ * @author amrit
+ *
+ */
+public class GreetingBean {
+	private message;
+
+	/**
+	 * 
+	 */
+	public GreetingBean(String inputMessage) {
+		this.message = inputMessage;
+	}
+
+}

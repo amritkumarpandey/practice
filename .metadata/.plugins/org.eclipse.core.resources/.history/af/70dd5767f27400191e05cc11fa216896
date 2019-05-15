@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.exceptions;
+
+/**
+ * @author amrit
+ *
+ */
+public class ApplicationUserNotFoundException extends RuntimeException {
+
+	public ApplicationUserNotFoundException(String message) {
+		super(message);
+	}
+
+}

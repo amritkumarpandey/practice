@@ -1,0 +1,63 @@
+package com.amrit.springboot.demo.demo.services.users;
+
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Date;
+
+/**
+ * 
+ */
+
+/**
+ * @author amrit
+ *
+ */
+@Component
+public class UserComponent {
+	private static List<User> usersList =  new ArrayList<User>();
+
+	long idCounter = 0;
+	{
+		usersList.add(new User(++idCounter , "Amrit Pandey", new Date()));
+		usersList.add(new User(++idCounter , "Sri Ashok Kumar Pandey", new Date()));
+		usersList.add(new User(++idCounter , "Sri Amit Pandey", new Date()));
+		usersList.add(new User(++idCounter , "Sri Amar Pandey", new Date()));
+		usersList.add(new User(++idCounter , "Sri Anupam Pandey", new Date()));
+	}
+	/**
+	 * 
+	 */
+	public UserComponent() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	/*@GetMapping("")*/
+	public List<User> retrieveAllUsers() {
+		return usersList;
+	}
+	
+	public User retrieveUserById(long inputId) {
+		User retrievedUser = null;
+		/*usersList.forEach(user->{
+			if(user !=null && user.id == id) {
+				retrievedUser = user;
+				//return user;
+			}
+		});*/
+		
+		for(User user: usersList) {
+			if(user !=null && user.id == inputId) {
+				retrievedUser = user;
+				//return user;
+			}
+		}
+		
+		
+		return retrievedUser;
+	}
+	
+	
+
+}

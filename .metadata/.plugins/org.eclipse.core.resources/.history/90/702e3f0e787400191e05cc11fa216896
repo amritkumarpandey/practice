@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.beans;
+
+/**
+ * @author amrit
+ *
+ */
+public class GreetingBean {
+	private String message;
+
+
+	/**
+	 * 
+	 */
+	public GreetingBean(String inputMessage) {
+		this.message = inputMessage;
+	}
+	
+	public void setMessage(String inputMessage) {
+		this.message = inputMessage;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return message;
+	}
+}

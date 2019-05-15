@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo.services.users;
+
+import java.util.Date;
+/**
+ * @author amrit
+ *
+ */
+public class User {
+	long id;
+	String username;
+	Date creationDate;
+
+	/**
+	 * 
+	 */
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(long id , String username , Date userSince) {
+		this.id = id;
+		this.username = username;
+		this.creationDate = userSince;
+	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return String.format("ID: %s , Username: %s , User Since: %s .",this.id,this.username, this.creationDate.toString());
+	}
+
+}

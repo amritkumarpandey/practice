@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo;
+
+/**
+ * @author amrit
+ *
+ */
+public class Book {
+
+	/**
+	 * 
+	 */
+	public Book() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

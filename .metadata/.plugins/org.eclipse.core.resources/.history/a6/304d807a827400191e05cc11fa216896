@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo.services.users;
+
+import java.util.Date;
+/**
+ * @author amrit
+ *
+ */
+public class User {
+
+	/**
+	 * 
+	 */
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public User(long id , String username , Date userSince) {
+		
+	}
+
+}

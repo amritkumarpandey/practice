@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo.services.users;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author amrit
+ *
+ */
+@RestController
+public class UserService {
+	@AutoWired
+	private UserComponent userComponent;
+
+	/**
+	 * 
+	 */
+	public UserService() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@GetMapping("/users")
+	public List<User> retrieveAllUsers(){
+		return userComponent.retrieveAllUsers();
+	}
+	
+	@GetMapping("/users/{id}")
+	public User retrieveAllUsers(@PathVariable String id){
+		return userComponent.retrieveUserById(new Long(id).longValue());
+	}
+	
+	@PostMapping("/user")
+	public String createUser(@RequestBody User newUser){
+		return userComponent.createUser(newUser);
+	}
+
+}

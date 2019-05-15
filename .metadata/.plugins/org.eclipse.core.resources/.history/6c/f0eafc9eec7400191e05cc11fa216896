@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.exceptions;
+/**
+ * @author amrit
+ *
+ */
+public class ExceptionResponse {
+
+	/**
+	 * 
+	 */
+	public ExceptionResponse() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

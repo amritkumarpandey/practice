@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo;
+//import org.springframework.web.bind.annotation.RestController;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+/**
+ * @author amrit
+ *
+ */
+@RestController
+public class HelloWorldController {
+
+	/**
+	 * 
+	 */
+	
+	public HelloWorldController() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@RequestMapping(method= RequestMethod.GET, path="/greet")
+	public String greet() {
+		return "Hello, How are you doing today. Wish you an awesome day ahead.";
+	}
+
+}

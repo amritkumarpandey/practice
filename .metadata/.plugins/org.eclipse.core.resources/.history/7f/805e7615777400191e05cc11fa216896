@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.beans;
+
+/**
+ * @author amrit
+ *
+ */
+public class GreetingBean {
+
+	/**
+	 * 
+	 */
+	public GreetingBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

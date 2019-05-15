@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.amrit.springboot.demo.demo.services.users;
+
+/**
+ * @author amrit
+ *
+ */
+public class User {
+
+	/**
+	 * 
+	 */
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
